@@ -20,7 +20,7 @@ class CreatePostsTable extends Migration
 
             $table->dateTime('date_written');
 
-            $table->Sting('post_imge')->nullable();
+            $table->String('post_imge')->nullable();
             $table->integer('votes_up') ->nullable();
             $table->integer('votes_down')->nullable();
 
